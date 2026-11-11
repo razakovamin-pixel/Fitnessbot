@@ -1,0 +1,10 @@
+name = "fitness-boss"
+main = "src/index.js"
+compatibility_date = "2026-11-11"
+workers_dev = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "fitness-boss-db"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+migrations_dir = "migrations"
