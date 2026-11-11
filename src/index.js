@@ -817,6 +817,17 @@ async function processTelegramUpdate(update, env) {
   await telegramSend(env, chatId, result.reply);
 }
 
+function safeEqual(a, b) {
+  const left = String(a || "");
+  const right = String(b || "");
+  if (left.length !== right.length) return false;
+  let diff = 0;
+  for (let i = 0; i < left.length; i++) {
+    diff |= left.charCodeAt(i) ^ right.charCodeAt(i);
+  }
+  return diff === 0;
+}
+
 async function handleTelegramWebhook(request, env, ctx) {
   if (!env.TG_WEBHOOK_SECRET) return json({ error: "Не настроен TG_WEBHOOK_SECRET." }, 503);
   const supplied = request.headers.get("X-Telegram-Bot-Api-Secret-Token") || "";
