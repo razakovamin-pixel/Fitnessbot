@@ -93,19 +93,6 @@ function withCors(response, cors) {
   return new Response(response.body, { status: response.status, statusText: response.statusText, headers });
 }
 
-function safeEqual(a, b) {
-  if (typeof a !== "string" || typeof b !== "string" || a.length !== b.length) return false;
-  let diff = 0;
-  for (let i = 0; i < a.length; i++) diff |= a.charCodeAt(i) ^ b.charCodeAt(i);
-  return diff === 0;
-}
-
-function authorized(request, env) {
-  if (!env.APP_TOKEN) return false;
-  const header = request.headers.get("Authorization") || "";
-  return safeEqual(header.startsWith("Bearer ") ? header.slice(7).trim() : "", env.APP_TOKEN);
-}
-
 async function readJson(request) {
   const declaredLength = Number(request.headers.get("content-length") || 0);
   if (declaredLength > MAX_JSON_BYTES) throw new Error("Тело запроса слишком большое. Максимум 12 МБ.");
@@ -832,8 +819,6 @@ export default {
       const response = await handleTelegramWebhook(request, env, ctx);
       return withCors(response, cors);
     }
-
-    if (!authorized(request, env)) return withCors(json({ error: "Unauthorized. Проверь APP_TOKEN в Cloudflare Secrets." }, 401), cors);
 
     try {
       let response;
