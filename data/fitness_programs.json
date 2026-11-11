@@ -1,0 +1,2406 @@
+{
+  "schema_version": 1,
+  "programs": [
+    {
+      "program_id": "bb_loyalty",
+      "name": "ББ loyalty",
+      "description": "Программа из пользовательской таблицы: 8 недель, 4 тренировочных дня в неделю. Названия и параметры упражнений сохранены по исходному файлу.",
+      "source_name": "ББ loyalty.xlsx",
+      "duration_weeks": 8,
+      "days_per_week": 4,
+      "total_exercises": 184,
+      "weeks": [
+        {
+          "week": 1,
+          "days": [
+            {
+              "day_name": "ПОНЕДЕЛЬНИК",
+              "day_order": 1,
+              "exercises": [
+                {
+                  "exercise_name": "жим лежа(гантели)",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 4
+                },
+                {
+                  "exercise_name": "бабочка на грудь",
+                  "intensity": "средняя",
+                  "sets_reps": "2х12-15",
+                  "source_row": 5
+                },
+                {
+                  "exercise_name": "свидение рук в кроссовере вниз",
+                  "intensity": "средняя",
+                  "sets_reps": "2х10-12",
+                  "source_row": 6
+                },
+                {
+                  "exercise_name": "тяга вертикального блока",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 7
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 8
+                },
+                {
+                  "exercise_name": "пуловер в блоке",
+                  "intensity": "средняя",
+                  "sets_reps": "2х12-15",
+                  "source_row": 9
+                }
+              ]
+            },
+            {
+              "day_name": "СРЕДА",
+              "day_order": 2,
+              "exercises": [
+                {
+                  "exercise_name": "присед со штангой",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х6-8",
+                  "source_row": 11
+                },
+                {
+                  "exercise_name": "румынская тяга",
+                  "intensity": "средняя",
+                  "sets_reps": "3х6-8",
+                  "source_row": 12
+                },
+                {
+                  "exercise_name": "разгибание ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-10",
+                  "source_row": 13
+                },
+                {
+                  "exercise_name": "сгибание ног",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-10",
+                  "source_row": 14
+                },
+                {
+                  "exercise_name": "свидение ног в тренажере",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-10",
+                  "source_row": 15
+                },
+                {
+                  "exercise_name": "икры",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х40-60",
+                  "source_row": 16
+                }
+              ]
+            },
+            {
+              "day_name": "ПЯТНИЦА",
+              "day_order": 3,
+              "exercises": [
+                {
+                  "exercise_name": "жим лежа 30градусов",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х8-12",
+                  "source_row": 18
+                },
+                {
+                  "exercise_name": "жим от груди сидя",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 19
+                },
+                {
+                  "exercise_name": "свидение рук в кроссовере вверх",
+                  "intensity": "средняя",
+                  "sets_reps": "2х10-12",
+                  "source_row": 20
+                },
+                {
+                  "exercise_name": "тяга горизонтального блока",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 21
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 22
+                },
+                {
+                  "exercise_name": "вертикальная тяга",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х8-12",
+                  "source_row": 23
+                }
+              ]
+            },
+            {
+              "day_name": "СУББОТА",
+              "day_order": 4,
+              "exercises": [
+                {
+                  "exercise_name": "сгибание на бицепс с субпинацией",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8",
+                  "source_row": 25
+                },
+                {
+                  "exercise_name": "сгибание на бицепс лежа 45градусов",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 26
+                },
+                {
+                  "exercise_name": "французский жим лежа",
+                  "intensity": "средняя",
+                  "sets_reps": "4х8-12",
+                  "source_row": 27
+                },
+                {
+                  "exercise_name": "разгибание с косичкой",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 28
+                },
+                {
+                  "exercise_name": "отведение на дельты",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 29
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "days": [
+            {
+              "day_name": "ПОНЕДЕЛЬНИК",
+              "day_order": 1,
+              "exercises": [
+                {
+                  "exercise_name": "жим лежа(гантели)",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 33
+                },
+                {
+                  "exercise_name": "бабочка на грудь",
+                  "intensity": "тяжелая",
+                  "sets_reps": "2х12-15",
+                  "source_row": 34
+                },
+                {
+                  "exercise_name": "свидение рук в кроссовере вниз",
+                  "intensity": "средняя",
+                  "sets_reps": "2х10-12",
+                  "source_row": 35
+                },
+                {
+                  "exercise_name": "тяга вертикального блока",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 36
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 37
+                },
+                {
+                  "exercise_name": "пуловер в блоке",
+                  "intensity": "средняя",
+                  "sets_reps": "2х12-15",
+                  "source_row": 38
+                }
+              ]
+            },
+            {
+              "day_name": "СРЕДА",
+              "day_order": 2,
+              "exercises": [
+                {
+                  "exercise_name": "присед со штангой",
+                  "intensity": "средняя",
+                  "sets_reps": "4х6-8",
+                  "source_row": 40
+                },
+                {
+                  "exercise_name": "румынская тяга",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х6-8",
+                  "source_row": 41
+                },
+                {
+                  "exercise_name": "разгибание ног",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-10",
+                  "source_row": 42
+                },
+                {
+                  "exercise_name": "сгибание ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-10",
+                  "source_row": 43
+                },
+                {
+                  "exercise_name": "свидение ног в тренажере",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-10",
+                  "source_row": 44
+                },
+                {
+                  "exercise_name": "икры",
+                  "intensity": "средняя",
+                  "sets_reps": "3х40-60",
+                  "source_row": 45
+                }
+              ]
+            },
+            {
+              "day_name": "ПЯТНИЦА",
+              "day_order": 3,
+              "exercises": [
+                {
+                  "exercise_name": "жим лежа 30градусов",
+                  "intensity": "средняя",
+                  "sets_reps": "4х8-12",
+                  "source_row": 47
+                },
+                {
+                  "exercise_name": "жим от груди сидя",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 48
+                },
+                {
+                  "exercise_name": "свидение рук в кроссовере вверх",
+                  "intensity": "тяжелая",
+                  "sets_reps": "2х10-12",
+                  "source_row": 49
+                },
+                {
+                  "exercise_name": "тяга горизонтального блока",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 50
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 51
+                },
+                {
+                  "exercise_name": "вертикальная тяга",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х8-12",
+                  "source_row": 52
+                }
+              ]
+            },
+            {
+              "day_name": "СУББОТА",
+              "day_order": 4,
+              "exercises": [
+                {
+                  "exercise_name": "сгибание на бицепс с субпинацией",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8",
+                  "source_row": 54
+                },
+                {
+                  "exercise_name": "сгибание на бицепс лежа 45градусов",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 55
+                },
+                {
+                  "exercise_name": "французский жим лежа",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х8-12",
+                  "source_row": 56
+                },
+                {
+                  "exercise_name": "разгибание с косичкой",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 57
+                },
+                {
+                  "exercise_name": "отведение на дельты",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 58
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "days": [
+            {
+              "day_name": "ПОНЕДЕЛЬНИК",
+              "day_order": 1,
+              "exercises": [
+                {
+                  "exercise_name": "жим лежа(гантели)",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х8-12",
+                  "source_row": 62
+                },
+                {
+                  "exercise_name": "бабочка на грудь",
+                  "intensity": "средняя",
+                  "sets_reps": "3х12-15",
+                  "source_row": 63
+                },
+                {
+                  "exercise_name": "свидение рук в кроссовере вниз",
+                  "intensity": "тяжелая",
+                  "sets_reps": "2х12-6-6 дроп сет",
+                  "source_row": 64
+                },
+                {
+                  "exercise_name": "тяга вертикального блока",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 65
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х12-6-4 дроп сет",
+                  "source_row": 66
+                },
+                {
+                  "exercise_name": "пуловер в блоке",
+                  "intensity": "средняя",
+                  "sets_reps": "3х12-15",
+                  "source_row": 67
+                }
+              ]
+            },
+            {
+              "day_name": "СРЕДА",
+              "day_order": 2,
+              "exercises": [
+                {
+                  "exercise_name": "присед со штангой",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х6-8",
+                  "source_row": 69
+                },
+                {
+                  "exercise_name": "румынская тяга",
+                  "intensity": "средняя",
+                  "sets_reps": "4х6-8",
+                  "source_row": 70
+                },
+                {
+                  "exercise_name": "разгибание ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-10",
+                  "source_row": 71
+                },
+                {
+                  "exercise_name": "сгибание ног",
+                  "intensity": "средняя",
+                  "sets_reps": "4х8-10",
+                  "source_row": 72
+                },
+                {
+                  "exercise_name": "свидение ног в тренажере",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-10",
+                  "source_row": 73
+                },
+                {
+                  "exercise_name": "икры",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х40-60",
+                  "source_row": 74
+                }
+              ]
+            },
+            {
+              "day_name": "ПЯТНИЦА",
+              "day_order": 3,
+              "exercises": [
+                {
+                  "exercise_name": "жим лежа 30градусов",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 76
+                },
+                {
+                  "exercise_name": "жим от груди сидя",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 77
+                },
+                {
+                  "exercise_name": "свидение рук в кроссовере вверх",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х10-12",
+                  "source_row": 78
+                },
+                {
+                  "exercise_name": "тяга горизонтального блока",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 79
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 80
+                },
+                {
+                  "exercise_name": "вертикальная тяга",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х8-12",
+                  "source_row": 81
+                }
+              ]
+            },
+            {
+              "day_name": "СУББОТА",
+              "day_order": 4,
+              "exercises": [
+                {
+                  "exercise_name": "сгибание на бицепс с субпинацией",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8",
+                  "source_row": 83
+                },
+                {
+                  "exercise_name": "сгибание на бицепс лежа 45градусов",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 84
+                },
+                {
+                  "exercise_name": "французский жим лежа",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 85
+                },
+                {
+                  "exercise_name": "разгибание с косичкой",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х12-6-6 дроп сет",
+                  "source_row": 86
+                },
+                {
+                  "exercise_name": "отведение на дельты",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 87
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "days": [
+            {
+              "day_name": "ПОНЕДЕЛЬНИК",
+              "day_order": 1,
+              "exercises": [
+                {
+                  "exercise_name": "жим лежа(гантели)",
+                  "intensity": "средняя",
+                  "sets_reps": "4х8-12",
+                  "source_row": 91
+                },
+                {
+                  "exercise_name": "бабочка на грудь",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х12-15",
+                  "source_row": 92
+                },
+                {
+                  "exercise_name": "свидение рук в кроссовере вниз",
+                  "intensity": "средняя",
+                  "sets_reps": "3х10-12",
+                  "source_row": 93
+                },
+                {
+                  "exercise_name": "тяга вертикального блока",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х8-12",
+                  "source_row": 94
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 95
+                },
+                {
+                  "exercise_name": "пуловер в блоке",
+                  "intensity": "тяжелая",
+                  "sets_reps": "2х12-15",
+                  "source_row": 96
+                }
+              ]
+            },
+            {
+              "day_name": "СРЕДА",
+              "day_order": 2,
+              "exercises": [
+                {
+                  "exercise_name": "присед со штангой",
+                  "intensity": "средняя",
+                  "sets_reps": "4х6-8",
+                  "source_row": 98
+                },
+                {
+                  "exercise_name": "румынская тяга",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х6-8",
+                  "source_row": 99
+                },
+                {
+                  "exercise_name": "разгибание ног",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-10",
+                  "source_row": 100
+                },
+                {
+                  "exercise_name": "сгибание ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х8-10",
+                  "source_row": 101
+                },
+                {
+                  "exercise_name": "свидение ног в тренажере",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-10",
+                  "source_row": 102
+                },
+                {
+                  "exercise_name": "икры",
+                  "intensity": "средняя",
+                  "sets_reps": "3х40-60",
+                  "source_row": 103
+                }
+              ]
+            },
+            {
+              "day_name": "ПЯТНИЦА",
+              "day_order": 3,
+              "exercises": [
+                {
+                  "exercise_name": "жим лежа 30градусов",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х8-12",
+                  "source_row": 105
+                },
+                {
+                  "exercise_name": "жим от груди сидя",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 106
+                },
+                {
+                  "exercise_name": "свидение рук в кроссовере вверх",
+                  "intensity": "средняя",
+                  "sets_reps": "3х10-12",
+                  "source_row": 107
+                },
+                {
+                  "exercise_name": "тяга горизонтального блока",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 108
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 109
+                },
+                {
+                  "exercise_name": "вертикальная тяга",
+                  "intensity": "средняя",
+                  "sets_reps": "4х8-12",
+                  "source_row": 110
+                }
+              ]
+            },
+            {
+              "day_name": "СУББОТА",
+              "day_order": 4,
+              "exercises": [
+                {
+                  "exercise_name": "сгибание на бицепс с субпинацией",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8",
+                  "source_row": 112
+                },
+                {
+                  "exercise_name": "сгибание на бицепс лежа 45градусов",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 113
+                },
+                {
+                  "exercise_name": "французский жим лежа",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х8-12",
+                  "source_row": 114
+                },
+                {
+                  "exercise_name": "разгибание с косичкой",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 115
+                },
+                {
+                  "exercise_name": "отведение на дельты",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 116
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 5,
+          "days": [
+            {
+              "day_name": "ПОНЕДЕЛЬНИК",
+              "day_order": 1,
+              "exercises": [
+                {
+                  "exercise_name": "жим лежа(гантели)",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х8-12",
+                  "source_row": 120
+                },
+                {
+                  "exercise_name": "бабочка на грудь",
+                  "intensity": "средняя",
+                  "sets_reps": "3х12-15",
+                  "source_row": 121
+                },
+                {
+                  "exercise_name": "свидение рук в кроссовере вниз",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х12-6-6 дроп сет",
+                  "source_row": 122
+                },
+                {
+                  "exercise_name": "тяга вертикального блока",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 123
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х12-6-4 дроп сет",
+                  "source_row": 124
+                },
+                {
+                  "exercise_name": "пуловер в блоке",
+                  "intensity": "средняя",
+                  "sets_reps": "3х12-15",
+                  "source_row": 125
+                }
+              ]
+            },
+            {
+              "day_name": "СРЕДА",
+              "day_order": 2,
+              "exercises": [
+                {
+                  "exercise_name": "присед со штангой",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х6-8",
+                  "source_row": 127
+                },
+                {
+                  "exercise_name": "румынская тяга",
+                  "intensity": "средняя",
+                  "sets_reps": "4х6-8",
+                  "source_row": 128
+                },
+                {
+                  "exercise_name": "разгибание ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-6-6 дроп сет",
+                  "source_row": 129
+                },
+                {
+                  "exercise_name": "сгибание ног",
+                  "intensity": "средняя",
+                  "sets_reps": "4х8-10",
+                  "source_row": 130
+                },
+                {
+                  "exercise_name": "свидение ног в тренажере",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-10",
+                  "source_row": 131
+                },
+                {
+                  "exercise_name": "икры",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х40-60",
+                  "source_row": 132
+                }
+              ]
+            },
+            {
+              "day_name": "ПЯТНИЦА",
+              "day_order": 3,
+              "exercises": [
+                {
+                  "exercise_name": "жим лежа 30градусов",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 134
+                },
+                {
+                  "exercise_name": "жим от груди сидя",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 135
+                },
+                {
+                  "exercise_name": "свидение рук в кроссовере вверх",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х10-12",
+                  "source_row": 136
+                },
+                {
+                  "exercise_name": "тяга горизонтального блока",
+                  "intensity": "средняя",
+                  "sets_reps": "3х12-6-4 дроп сет",
+                  "source_row": 137
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 138
+                },
+                {
+                  "exercise_name": "вертикальная тяга",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х8-12",
+                  "source_row": 139
+                }
+              ]
+            },
+            {
+              "day_name": "СУББОТА",
+              "day_order": 4,
+              "exercises": [
+                {
+                  "exercise_name": "сгибание на бицепс с субпинацией",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8",
+                  "source_row": 141
+                },
+                {
+                  "exercise_name": "сгибание на бицепс лежа 45градусов",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 142
+                },
+                {
+                  "exercise_name": "французский жим лежа",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 143
+                },
+                {
+                  "exercise_name": "разгибание с косичкой",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х12-6-6 дроп сет",
+                  "source_row": 144
+                },
+                {
+                  "exercise_name": "отведение на дельты",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 145
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 6,
+          "days": [
+            {
+              "day_name": "ПОНЕДЕЛЬНИК",
+              "day_order": 1,
+              "exercises": [
+                {
+                  "exercise_name": "жим лежа(гантели)",
+                  "intensity": "средняя",
+                  "sets_reps": "4х8-12",
+                  "source_row": 149
+                },
+                {
+                  "exercise_name": "бабочка на грудь",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х12-15",
+                  "source_row": 150
+                },
+                {
+                  "exercise_name": "свидение рук в кроссовере вниз",
+                  "intensity": "средняя",
+                  "sets_reps": "3х10-12",
+                  "source_row": 151
+                },
+                {
+                  "exercise_name": "тяга вертикального блока",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х8-12",
+                  "source_row": 152
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 153
+                },
+                {
+                  "exercise_name": "пуловер в блоке",
+                  "intensity": "тяжелая",
+                  "sets_reps": "2х12-15",
+                  "source_row": 154
+                }
+              ]
+            },
+            {
+              "day_name": "СРЕДА",
+              "day_order": 2,
+              "exercises": [
+                {
+                  "exercise_name": "присед со штангой",
+                  "intensity": "средняя",
+                  "sets_reps": "4х6-8",
+                  "source_row": 156
+                },
+                {
+                  "exercise_name": "румынская тяга",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х6-8",
+                  "source_row": 157
+                },
+                {
+                  "exercise_name": "разгибание ног",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-10",
+                  "source_row": 158
+                },
+                {
+                  "exercise_name": "сгибание ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х8-10",
+                  "source_row": 159
+                },
+                {
+                  "exercise_name": "свидение ног в тренажере",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-10",
+                  "source_row": 160
+                },
+                {
+                  "exercise_name": "икры",
+                  "intensity": "средняя",
+                  "sets_reps": "3х40-60",
+                  "source_row": 161
+                }
+              ]
+            },
+            {
+              "day_name": "ПЯТНИЦА",
+              "day_order": 3,
+              "exercises": [
+                {
+                  "exercise_name": "жим лежа 30градусов",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х8-12",
+                  "source_row": 163
+                },
+                {
+                  "exercise_name": "жим от груди сидя",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 164
+                },
+                {
+                  "exercise_name": "свидение рук в кроссовере вверх",
+                  "intensity": "средняя",
+                  "sets_reps": "3х10-12",
+                  "source_row": 165
+                },
+                {
+                  "exercise_name": "тяга горизонтального блока",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 166
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 167
+                },
+                {
+                  "exercise_name": "вертикальная тяга",
+                  "intensity": "средняя",
+                  "sets_reps": "4х8-12",
+                  "source_row": 168
+                }
+              ]
+            },
+            {
+              "day_name": "СУББОТА",
+              "day_order": 4,
+              "exercises": [
+                {
+                  "exercise_name": "сгибание на бицепс с субпинацией",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8",
+                  "source_row": 170
+                },
+                {
+                  "exercise_name": "сгибание на бицепс лежа 45градусов",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 171
+                },
+                {
+                  "exercise_name": "французский жим лежа",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х8-12",
+                  "source_row": 172
+                },
+                {
+                  "exercise_name": "разгибание с косичкой",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 173
+                },
+                {
+                  "exercise_name": "отведение на дельты",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 174
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 7,
+          "days": [
+            {
+              "day_name": "ПОНЕДЕЛЬНИК",
+              "day_order": 1,
+              "exercises": [
+                {
+                  "exercise_name": "жим лежа(гантели)",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х8-12",
+                  "source_row": 178
+                },
+                {
+                  "exercise_name": "бабочка на грудь",
+                  "intensity": "средняя",
+                  "sets_reps": "3х12-15",
+                  "source_row": 179
+                },
+                {
+                  "exercise_name": "свидение рук в кроссовере вниз",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х12-6-6 дроп сет",
+                  "source_row": 180
+                },
+                {
+                  "exercise_name": "тяга вертикального блока",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 181
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х12-6-4 дроп сет",
+                  "source_row": 182
+                },
+                {
+                  "exercise_name": "пуловер в блоке",
+                  "intensity": "средняя",
+                  "sets_reps": "3х12-15",
+                  "source_row": 183
+                }
+              ]
+            },
+            {
+              "day_name": "СРЕДА",
+              "day_order": 2,
+              "exercises": [
+                {
+                  "exercise_name": "присед со штангой",
+                  "intensity": "средняя",
+                  "sets_reps": "4х6-8",
+                  "source_row": 185
+                },
+                {
+                  "exercise_name": "румынская тяга",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х6-8",
+                  "source_row": 186
+                },
+                {
+                  "exercise_name": "разгибание ног",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-6-6 дроп сет",
+                  "source_row": 187
+                },
+                {
+                  "exercise_name": "сгибание ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х8-10",
+                  "source_row": 188
+                },
+                {
+                  "exercise_name": "свидение ног в тренажере",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-10",
+                  "source_row": 189
+                },
+                {
+                  "exercise_name": "икры",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х40-60",
+                  "source_row": 190
+                }
+              ]
+            },
+            {
+              "day_name": "ПЯТНИЦА",
+              "day_order": 3,
+              "exercises": [
+                {
+                  "exercise_name": "жим лежа 30градусов",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 192
+                },
+                {
+                  "exercise_name": "жим от груди сидя",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 193
+                },
+                {
+                  "exercise_name": "свидение рук в кроссовере вверх",
+                  "intensity": "средняя",
+                  "sets_reps": "3х10-12",
+                  "source_row": 194
+                },
+                {
+                  "exercise_name": "тяга горизонтального блока",
+                  "intensity": "средняя",
+                  "sets_reps": "4х12-6-4 дроп сет",
+                  "source_row": 195
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 196
+                },
+                {
+                  "exercise_name": "вертикальная тяга",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х8-12",
+                  "source_row": 197
+                }
+              ]
+            },
+            {
+              "day_name": "СУББОТА",
+              "day_order": 4,
+              "exercises": [
+                {
+                  "exercise_name": "сгибание на бицепс с субпинацией",
+                  "intensity": "средняя",
+                  "sets_reps": "4х8",
+                  "source_row": 199
+                },
+                {
+                  "exercise_name": "сгибание на бицепс лежа 45градусов",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 200
+                },
+                {
+                  "exercise_name": "французский жим лежа",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 201
+                },
+                {
+                  "exercise_name": "разгибание с косичкой",
+                  "intensity": "средняя",
+                  "sets_reps": "3х12-6-6 дроп сет",
+                  "source_row": 202
+                },
+                {
+                  "exercise_name": "отведение на дельты",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 203
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 8,
+          "days": [
+            {
+              "day_name": "ПОНЕДЕЛЬНИК",
+              "day_order": 1,
+              "exercises": [
+                {
+                  "exercise_name": "жим лежа(гантели)",
+                  "intensity": "средняя",
+                  "sets_reps": "5х8-12",
+                  "source_row": 207
+                },
+                {
+                  "exercise_name": "бабочка на грудь",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х12-15",
+                  "source_row": 208
+                },
+                {
+                  "exercise_name": "свидение рук в кроссовере вниз",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х10-12",
+                  "source_row": 209
+                },
+                {
+                  "exercise_name": "тяга вертикального блока",
+                  "intensity": "средняя",
+                  "sets_reps": "4х8-12",
+                  "source_row": 210
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 211
+                },
+                {
+                  "exercise_name": "пуловер в блоке",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х12-15",
+                  "source_row": 212
+                }
+              ]
+            },
+            {
+              "day_name": "СРЕДА",
+              "day_order": 2,
+              "exercises": [
+                {
+                  "exercise_name": "присед со штангой",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х6-8",
+                  "source_row": 214
+                },
+                {
+                  "exercise_name": "румынская тяга",
+                  "intensity": "средняя",
+                  "sets_reps": "4х6-8",
+                  "source_row": 215
+                },
+                {
+                  "exercise_name": "разгибание ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-10",
+                  "source_row": 216
+                },
+                {
+                  "exercise_name": "сгибание ног",
+                  "intensity": "средняя",
+                  "sets_reps": "4х8-10",
+                  "source_row": 217
+                },
+                {
+                  "exercise_name": "свидение ног в тренажере",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-10",
+                  "source_row": 218
+                },
+                {
+                  "exercise_name": "икры",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х40-60",
+                  "source_row": 219
+                }
+              ]
+            },
+            {
+              "day_name": "ПЯТНИЦА",
+              "day_order": 3,
+              "exercises": [
+                {
+                  "exercise_name": "жим лежа 30градусов",
+                  "intensity": "средняя",
+                  "sets_reps": "4х8-12",
+                  "source_row": 221
+                },
+                {
+                  "exercise_name": "жим от груди сидя",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 222
+                },
+                {
+                  "exercise_name": "свидение рук в кроссовере вверх",
+                  "intensity": "средняя",
+                  "sets_reps": "3х10-12",
+                  "source_row": 223
+                },
+                {
+                  "exercise_name": "тяга горизонтального блока",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 224
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 225
+                },
+                {
+                  "exercise_name": "вертикальная тяга",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4х8-12",
+                  "source_row": 226
+                }
+              ]
+            },
+            {
+              "day_name": "СУББОТА",
+              "day_order": 4,
+              "exercises": [
+                {
+                  "exercise_name": "сгибание на бицепс с субпинацией",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8",
+                  "source_row": 228
+                },
+                {
+                  "exercise_name": "сгибание на бицепс лежа 45градусов",
+                  "intensity": "средняя",
+                  "sets_reps": "3х8-12",
+                  "source_row": 229
+                },
+                {
+                  "exercise_name": "французский жим лежа",
+                  "intensity": "средняя",
+                  "sets_reps": "4х8-12",
+                  "source_row": 230
+                },
+                {
+                  "exercise_name": "разгибание с косичкой",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 231
+                },
+                {
+                  "exercise_name": "отведение на дельты",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3х8-12",
+                  "source_row": 232
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "program_id": "bb_loyalty_2_0",
+      "name": "ББ loyalty 2.0",
+      "description": "Программа из пользовательской таблицы: 7 недель, 4 тренировочных дня в неделю. Названия и параметры упражнений сохранены по исходному файлу.",
+      "source_name": "ББ loyalty 2.0.xlsx",
+      "duration_weeks": 7,
+      "days_per_week": 4,
+      "total_exercises": 140,
+      "weeks": [
+        {
+          "week": 1,
+          "days": [
+            {
+              "day_name": "ПОНЕДЕЛЬНИК",
+              "day_order": 1,
+              "exercises": [
+                {
+                  "exercise_name": "Жим (гантели)",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 4
+                },
+                {
+                  "exercise_name": "сведение рук в кроссовере вниз",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 5
+                },
+                {
+                  "exercise_name": "тяга вертикального блока",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 6
+                },
+                {
+                  "exercise_name": "тяга штанги в наклоне",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 7
+                },
+                {
+                  "exercise_name": "отведения на дельты",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 8
+                }
+              ]
+            },
+            {
+              "day_name": "СРЕДА",
+              "day_order": 2,
+              "exercises": [
+                {
+                  "exercise_name": "присед со штангой",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8",
+                  "source_row": 10
+                },
+                {
+                  "exercise_name": "румынская тяга",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 11
+                },
+                {
+                  "exercise_name": "разгибание ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 12",
+                  "source_row": 12
+                },
+                {
+                  "exercise_name": "сгибание ног",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 13
+                },
+                {
+                  "exercise_name": "разведение ног",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 14
+                },
+                {
+                  "exercise_name": "сведение ног",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 15
+                },
+                {
+                  "exercise_name": "икры",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 15",
+                  "source_row": 16
+                }
+              ]
+            },
+            {
+              "day_name": "ПЯТНИЦА",
+              "day_order": 3,
+              "exercises": [
+                {
+                  "exercise_name": "жим в кроссовере 45 градусов",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 18
+                },
+                {
+                  "exercise_name": "сведение рук в кроссовере вверх",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 19
+                },
+                {
+                  "exercise_name": "тяга горизонтального блока",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 20
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 21
+                },
+                {
+                  "exercise_name": "отведения на дельты",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 22
+                }
+              ]
+            },
+            {
+              "day_name": "СУББОТА",
+              "day_order": 4,
+              "exercises": [
+                {
+                  "exercise_name": "сгибание на бицепс супинацией",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 24
+                },
+                {
+                  "exercise_name": "сгибание на бицепс с пронацией",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 25
+                },
+                {
+                  "exercise_name": "французкий жим в блоке из-за головы",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 26
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "days": [
+            {
+              "day_name": "ПОНЕДЕЛЬНИК",
+              "day_order": 1,
+              "exercises": [
+                {
+                  "exercise_name": "Жим (гантели)",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 30
+                },
+                {
+                  "exercise_name": "сведение рук в кроссовере вниз",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 31
+                },
+                {
+                  "exercise_name": "тяга вертикального блока",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 32
+                },
+                {
+                  "exercise_name": "тяга штанги в наклоне",
+                  "intensity": "средняя",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 33
+                },
+                {
+                  "exercise_name": "отведения на дельты",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 34
+                }
+              ]
+            },
+            {
+              "day_name": "СРЕДА",
+              "day_order": 2,
+              "exercises": [
+                {
+                  "exercise_name": "присед со штангой",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8",
+                  "source_row": 36
+                },
+                {
+                  "exercise_name": "румынская тяга",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 37
+                },
+                {
+                  "exercise_name": "разгибание ног",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 12",
+                  "source_row": 38
+                },
+                {
+                  "exercise_name": "сгибание ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 39
+                },
+                {
+                  "exercise_name": "разведение ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 40
+                },
+                {
+                  "exercise_name": "сведение ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 41
+                },
+                {
+                  "exercise_name": "икры",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 15",
+                  "source_row": 42
+                }
+              ]
+            },
+            {
+              "day_name": "ПЯТНИЦА",
+              "day_order": 3,
+              "exercises": [
+                {
+                  "exercise_name": "жим в кроссовере 45 градусов",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 44
+                },
+                {
+                  "exercise_name": "сведение рук в кроссовере вверх",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 45
+                },
+                {
+                  "exercise_name": "тяга горизонтального блока",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 46
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 47
+                },
+                {
+                  "exercise_name": "отведения на дельты",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 12-15",
+                  "source_row": 48
+                }
+              ]
+            },
+            {
+              "day_name": "СУББОТА",
+              "day_order": 4,
+              "exercises": [
+                {
+                  "exercise_name": "сгибание на бицепс с ez грифом снизу",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 50
+                },
+                {
+                  "exercise_name": "сгибание на бицепс с ez грифом сверху",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 51
+                },
+                {
+                  "exercise_name": "французкий жим в блоке из-за головы",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 52
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "days": [
+            {
+              "day_name": "ПОНЕДЕЛЬНИК",
+              "day_order": 1,
+              "exercises": [
+                {
+                  "exercise_name": "Жим (гантели)",
+                  "intensity": "средняя",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 56
+                },
+                {
+                  "exercise_name": "сведение рук в кроссовере вниз",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 57
+                },
+                {
+                  "exercise_name": "тяга вертикального блока",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 58
+                },
+                {
+                  "exercise_name": "тяга штанги в наклоне",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 59
+                },
+                {
+                  "exercise_name": "отведения на дельты",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 60
+                }
+              ]
+            },
+            {
+              "day_name": "СРЕДА",
+              "day_order": 2,
+              "exercises": [
+                {
+                  "exercise_name": "присед со штангой",
+                  "intensity": "тяжелая",
+                  "sets_reps": "5 х 8",
+                  "source_row": 62
+                },
+                {
+                  "exercise_name": "румынская тяга",
+                  "intensity": "средняя",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 63
+                },
+                {
+                  "exercise_name": "разгибание ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 12",
+                  "source_row": 64
+                },
+                {
+                  "exercise_name": "сгибание ног",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 65
+                },
+                {
+                  "exercise_name": "разведение ног",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 66
+                },
+                {
+                  "exercise_name": "сведение ног",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 67
+                },
+                {
+                  "exercise_name": "икры",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 15",
+                  "source_row": 68
+                }
+              ]
+            },
+            {
+              "day_name": "ПЯТНИЦА",
+              "day_order": 3,
+              "exercises": [
+                {
+                  "exercise_name": "жим в кроссовере 45 градусов",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 70
+                },
+                {
+                  "exercise_name": "сведение рук в кроссовере вверх",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 71
+                },
+                {
+                  "exercise_name": "тяга горизонтального блока",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 72
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 73
+                },
+                {
+                  "exercise_name": "отведения на дельты",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 74
+                }
+              ]
+            },
+            {
+              "day_name": "СУББОТА",
+              "day_order": 4,
+              "exercises": [
+                {
+                  "exercise_name": "сгибание на бицепс супинацией",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 76
+                },
+                {
+                  "exercise_name": "сгибание на бицепс с пронацией",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 77
+                },
+                {
+                  "exercise_name": "французкий жим в блоке из-за головы",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 78
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "days": [
+            {
+              "day_name": "ПОНЕДЕЛЬНИК",
+              "day_order": 1,
+              "exercises": [
+                {
+                  "exercise_name": "Жим (гантели)",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 82
+                },
+                {
+                  "exercise_name": "сведение рук в кроссовере вниз",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 12-15",
+                  "source_row": 83
+                },
+                {
+                  "exercise_name": "тяга вертикального блока",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 84
+                },
+                {
+                  "exercise_name": "тяга штанги в наклоне",
+                  "intensity": "средняя",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 85
+                },
+                {
+                  "exercise_name": "отведения на дельты",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 86
+                }
+              ]
+            },
+            {
+              "day_name": "СРЕДА",
+              "day_order": 2,
+              "exercises": [
+                {
+                  "exercise_name": "присед со штангой",
+                  "intensity": "средняя",
+                  "sets_reps": "4 х 8",
+                  "source_row": 88
+                },
+                {
+                  "exercise_name": "румынская тяга",
+                  "intensity": "тяжелая",
+                  "sets_reps": "5 х 8-12",
+                  "source_row": 89
+                },
+                {
+                  "exercise_name": "разгибание ног",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 12",
+                  "source_row": 90
+                },
+                {
+                  "exercise_name": "сгибание ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 91
+                },
+                {
+                  "exercise_name": "разведение ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 92
+                },
+                {
+                  "exercise_name": "сведение ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 93
+                },
+                {
+                  "exercise_name": "икры",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 15",
+                  "source_row": 94
+                }
+              ]
+            },
+            {
+              "day_name": "ПЯТНИЦА",
+              "day_order": 3,
+              "exercises": [
+                {
+                  "exercise_name": "жим в кроссовере 45 градусов",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 96
+                },
+                {
+                  "exercise_name": "сведение рук в кроссовере вверх",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 12-15",
+                  "source_row": 97
+                },
+                {
+                  "exercise_name": "тяга горизонтального блока",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 98
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 99
+                },
+                {
+                  "exercise_name": "отведения на дельты",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 100
+                }
+              ]
+            },
+            {
+              "day_name": "СУББОТА",
+              "day_order": 4,
+              "exercises": [
+                {
+                  "exercise_name": "сгибание на бицепс с ez грифом снизу",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 102
+                },
+                {
+                  "exercise_name": "сгибание на бицепс с ez грифом сверху",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 103
+                },
+                {
+                  "exercise_name": "французкий жим в блоке из-за головы",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 104
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 5,
+          "days": [
+            {
+              "day_name": "ПОНЕДЕЛЬНИК",
+              "day_order": 1,
+              "exercises": [
+                {
+                  "exercise_name": "Жим (гантели)",
+                  "intensity": "тяжелая",
+                  "sets_reps": "5 х 8-12",
+                  "source_row": 108
+                },
+                {
+                  "exercise_name": "сведение рук в кроссовере вниз",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 109
+                },
+                {
+                  "exercise_name": "тяга вертикального блока",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 110
+                },
+                {
+                  "exercise_name": "тяга штанги в наклоне",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 111
+                },
+                {
+                  "exercise_name": "отведения на дельты",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 112
+                }
+              ]
+            },
+            {
+              "day_name": "СРЕДА",
+              "day_order": 2,
+              "exercises": [
+                {
+                  "exercise_name": "присед со штангой",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8",
+                  "source_row": 114
+                },
+                {
+                  "exercise_name": "румынская тяга",
+                  "intensity": "средняя",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 115
+                },
+                {
+                  "exercise_name": "разгибание ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 12",
+                  "source_row": 116
+                },
+                {
+                  "exercise_name": "сгибание ног",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 117
+                },
+                {
+                  "exercise_name": "разведение ног",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 118
+                },
+                {
+                  "exercise_name": "сведение ног",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 119
+                },
+                {
+                  "exercise_name": "икры",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 15",
+                  "source_row": 120
+                }
+              ]
+            },
+            {
+              "day_name": "ПЯТНИЦА",
+              "day_order": 3,
+              "exercises": [
+                {
+                  "exercise_name": "жим в кроссовере 45 градусов",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 122
+                },
+                {
+                  "exercise_name": "сведение рук в кроссовере вверх",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 123
+                },
+                {
+                  "exercise_name": "тяга горизонтального блока",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 124
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 125
+                },
+                {
+                  "exercise_name": "отведения на дельты",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 126
+                }
+              ]
+            },
+            {
+              "day_name": "СУББОТА",
+              "day_order": 4,
+              "exercises": [
+                {
+                  "exercise_name": "сгибание на бицепс супинацией",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 128
+                },
+                {
+                  "exercise_name": "сгибание на бицепс с пронацией",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 129
+                },
+                {
+                  "exercise_name": "французкий жим в блоке из-за головы",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 130
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 6,
+          "days": [
+            {
+              "day_name": "ПОНЕДЕЛЬНИК",
+              "day_order": 1,
+              "exercises": [
+                {
+                  "exercise_name": "Жим (гантели)",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 134
+                },
+                {
+                  "exercise_name": "сведение рук в кроссовере вниз",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 12-15",
+                  "source_row": 135
+                },
+                {
+                  "exercise_name": "тяга вертикального блока",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 136
+                },
+                {
+                  "exercise_name": "тяга штанги в наклоне",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 137
+                },
+                {
+                  "exercise_name": "отведения на дельты",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 138
+                }
+              ]
+            },
+            {
+              "day_name": "СРЕДА",
+              "day_order": 2,
+              "exercises": [
+                {
+                  "exercise_name": "присед со штангой",
+                  "intensity": "средняя",
+                  "sets_reps": "4 х 8",
+                  "source_row": 140
+                },
+                {
+                  "exercise_name": "румынская тяга",
+                  "intensity": "тяжелая",
+                  "sets_reps": "5 х 8-12",
+                  "source_row": 141
+                },
+                {
+                  "exercise_name": "разгибание ног",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 12",
+                  "source_row": 142
+                },
+                {
+                  "exercise_name": "сгибание ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 143
+                },
+                {
+                  "exercise_name": "разведение ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 144
+                },
+                {
+                  "exercise_name": "сведение ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 145
+                },
+                {
+                  "exercise_name": "икры",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 15",
+                  "source_row": 146
+                }
+              ]
+            },
+            {
+              "day_name": "ПЯТНИЦА",
+              "day_order": 3,
+              "exercises": [
+                {
+                  "exercise_name": "жим в кроссовере 45 градусов",
+                  "intensity": "тяжелая",
+                  "sets_reps": "5 х 8-12",
+                  "source_row": 148
+                },
+                {
+                  "exercise_name": "сведение рук в кроссовере вверх",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 12-15",
+                  "source_row": 149
+                },
+                {
+                  "exercise_name": "тяга горизонтального блока",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 150
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 151
+                },
+                {
+                  "exercise_name": "отведения на дельты",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 152
+                }
+              ]
+            },
+            {
+              "day_name": "СУББОТА",
+              "day_order": 4,
+              "exercises": [
+                {
+                  "exercise_name": "сгибание на бицепс с ez грифом снизу",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 154
+                },
+                {
+                  "exercise_name": "сгибание на бицепс с ez грифом сверху",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 155
+                },
+                {
+                  "exercise_name": "французкий жим в блоке из-за головы",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 156
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "week": 7,
+          "days": [
+            {
+              "day_name": "ПОНЕДЕЛЬНИК",
+              "day_order": 1,
+              "exercises": [
+                {
+                  "exercise_name": "Жим (гантели)",
+                  "intensity": "тяжелая",
+                  "sets_reps": "5 х 8-12",
+                  "source_row": 160
+                },
+                {
+                  "exercise_name": "сведение рук в кроссовере вниз",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 161
+                },
+                {
+                  "exercise_name": "тяга вертикального блока",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 162
+                },
+                {
+                  "exercise_name": "тяга штанги в наклоне",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 163
+                },
+                {
+                  "exercise_name": "отведения на дельты",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 12-15",
+                  "source_row": 164
+                }
+              ]
+            },
+            {
+              "day_name": "СРЕДА",
+              "day_order": 2,
+              "exercises": [
+                {
+                  "exercise_name": "присед со штангой",
+                  "intensity": "тяжелая",
+                  "sets_reps": "5 х 8",
+                  "source_row": 166
+                },
+                {
+                  "exercise_name": "румынская тяга",
+                  "intensity": "средняя",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 167
+                },
+                {
+                  "exercise_name": "разгибание ног",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 12",
+                  "source_row": 168
+                },
+                {
+                  "exercise_name": "сгибание ног",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 169
+                },
+                {
+                  "exercise_name": "разведение ног",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 170
+                },
+                {
+                  "exercise_name": "сведение ног",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 171
+                },
+                {
+                  "exercise_name": "икры",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 15",
+                  "source_row": 172
+                }
+              ]
+            },
+            {
+              "day_name": "ПЯТНИЦА",
+              "day_order": 3,
+              "exercises": [
+                {
+                  "exercise_name": "жим в кроссовере 45 градусов",
+                  "intensity": "средняя",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 174
+                },
+                {
+                  "exercise_name": "сведение рук в кроссовере вверх",
+                  "intensity": "средняя",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 175
+                },
+                {
+                  "exercise_name": "тяга горизонтального блока",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 176
+                },
+                {
+                  "exercise_name": "тяга Т-грифа",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 177
+                },
+                {
+                  "exercise_name": "отведения на дельты",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 12-15",
+                  "source_row": 178
+                }
+              ]
+            },
+            {
+              "day_name": "СУББОТА",
+              "day_order": 4,
+              "exercises": [
+                {
+                  "exercise_name": "сгибание на бицепс супинацией",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 180
+                },
+                {
+                  "exercise_name": "сгибание на бицепс с пронацией",
+                  "intensity": "тяжелая",
+                  "sets_reps": "3 х 8-12",
+                  "source_row": 181
+                },
+                {
+                  "exercise_name": "французкий жим в блоке из-за головы",
+                  "intensity": "тяжелая",
+                  "sets_reps": "4 х 8-12",
+                  "source_row": 182
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
